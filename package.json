@@ -1,0 +1,14 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Senthilkumar S Resume",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Senthilkumar S",
+  "license": "MIT",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}

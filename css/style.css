@@ -1,0 +1,228 @@
+
+/* Fonts to be used in Resume*/
+@font-face{
+    font-family: 'Roboto Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto Medium';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto Condensed';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto Light Italic';
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+/* Flex box alignments */
+.d-flex{
+	display: flex;
+}
+.d-row{
+	flex-direction: row;
+}
+.justify-center{
+	justify-content: center;
+}
+.align-center{
+	align-items: center;
+}
+.justify-space-between{
+	justify-content: space-between;
+}
+.flex-25{
+	flex:0 0 33%;
+}
+.flex-75{
+	flex:0 0 83%;
+}
+.pt0{
+	padding-top: 0 !important;
+}
+.p10px12px{
+	padding: 10px 12px !important;
+}
+.ml15{
+	margin-left: 15px;
+}
+
+body{
+    font-family: 'Roboto Regular';
+    background: #f5f5f5;
+    color: #545E6C;
+    font-size: 14px;
+    padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.wrapper{
+    max-width: 760px;
+	background: #FFF;
+	//margin: 0px auto;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.page-left-section{
+	padding: 40px;
+	width: 100%;
+}
+.page-right-section{
+	background: #42A8C0;
+	width: 100%
+}
+
+.icon-style{
+	margin: 5px;
+	background: #2d7788;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 10px;
+	border-radius: 50%;
+}
+.page-headings{
+	font-family: "Roboto Medium";
+	color: #2d7788;
+	font-size: 20px;
+	padding: 5px;
+
+}
+.page-paragraph-content{
+	padding: 10px;
+}
+.page-role-heading{
+	font-size: 16px;
+	font-family: "Roboto Condensed";
+}
+.page-role-year{
+	font-family: "Roboto Light";
+	color: #97AAC3;
+}
+.page-role-company{
+	color: #97AAC3;
+	padding: 5px 0px;
+}
+.page-sub-content{
+	padding: 10px 0px;
+}
+
+.basic-profile-container{
+	background: rgba(0,0,0,0.2);
+	padding: 30px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.profile-img {
+    max-width: 100px;
+    margin-bottom: 15px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.profile-name{
+	font-family: "Roboto Bold";
+	font-size: 25px;
+}
+.profile-designation{
+	font-family: "Roboto Light";
+    font-size: 16px;
+    padding: 10px 0px 0px 0px;
+    color: rgba(255,255,255,0.6);
+}
+.page-contact-list{
+	font-size: 12px;
+	padding: 15px;
+}
+.page-contact-list-margin-15{
+	margin-top: 15px;
+}
+.list-no-style{
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 15px 0px;
+	margin: 0;
+}
+.contact_item{
+	padding: 10px 15px;
+}
+.contact_item a{
+	text-decoration: none;
+	color: #FFF;
+	padding-left: 5px;
+}
+
+.page-education-container{
+	padding: 30px 15px;
+	color: #FFFFFF;
+}
+.education-header,.language-header{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: "Roboto Medium";
+}
+.education-qualification{
+	font-size: 14px;
+	padding:10px 0px;
+}
+.education-college-year{
+	color: rgba(255,255,255,0.6);
+	font-size: 14px;
+	padding: 10px 0px;
+}
+.page-language-container{
+	padding: 15px;
+	color: #FFFFFF;
+}
+.page-interests-container{
+	padding: 45px 15px;
+	color: #FFFFFF;
+}
+.language_list{
+	padding: 10px 0px 0px;
+}
+.language-classification{
+	color: rgba(255,255,255,0.6);
+	font-size: 12px;
+	padding-left: 8px;
+}
+
+.skills{
+	padding: 15px;
+}
+.skill_name{
+	padding:0px 5px;
+	width:50%;
+}
+.skill_percentage{
+    width: 100%;
+    background: #f5f5f5;
+    height: 12px;
+    margin: 3px;
+}
+.skill-graph{
+	background: #7bc2d3;
+	height: 12px;
+}
+.build_tools{
+	font-size: 12px;
+}
+.page-info-container .language-header{
+	padding: 0px 15px;
+	color: #FFFFFF;
+}
